@@ -160,7 +160,7 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <picture class="carousel-item active">
             <source
               srcset="
                 ./assets/images/slider/mobile/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg
@@ -178,8 +178,8 @@
               class="d-block w-100"
               alt="homme qui traverse un passage piéton"
             />
-          </div>
-          <div class="carousel-item">
+          </picture>
+          <picture class="carousel-item">
             <source
               srcset="
                 ./assets/images/slider/mobile/nicholas-green-nPz8akkUmDI-unsplash.jpg
@@ -197,8 +197,8 @@
               class="d-block w-100"
               alt="foule de personne en concert"
             />
-          </div>
-          <div class="carousel-item">
+          </picture>
+          <picture class="carousel-item">
             <source
               srcset="
                 ./assets/images/slider/mobile/edward-cisneros-3_h6-1NPDGw-unsplash.jpg
@@ -216,7 +216,7 @@
               class="d-block w-100"
               alt="un couple s'embrasse à leur mariage"
             />
-          </div>
+          </picture>
         </div>
         <button
           class="carousel-control-prev"
@@ -239,14 +239,14 @@
       </div>
     </div>
     <div id="about">
-      <div class="picture left">
+      <picture class="picture left">
         <source
           srcset="./assets/images/nina_mobile.png"
           media="(max-width: 420px)"
         />
         <source srcset="./assets/images/nina.png" media="(min-width: 421px)" />
         <img src="./assets/images/nina.png" alt="photo de nina carducci" />
-      </div>
+      </picture>
       <section id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
         <p class="about-me__introduction">
@@ -350,9 +350,11 @@
       </div>
     </section>
     <div id="services">
-      <h3 class="title">Mes services</h3>
+      <header>
+        <h2 class="title">Mes services</h2>
+      </header>
       <div class="container">
-        <div class="service">
+        <article class="service">
           <section class="service__description">
             <h3>Shooting photo</h3>
             <p>
@@ -365,33 +367,33 @@
             <h4>350€/demi journée</h4>
             <span>Matériel, déplacement inclus</span>
           </section>
-        </div>
-        <div class="service">
+        </article>
+        <article class="service">
           <section class="service__description">
             <h3>Retouches</h3>
             <p>
               Vous souhaitez retoucher vos photos pour un résultat professionnel
-              ? Bénéficier d’un rendu optimal pour vos publications
+              ? Bénéficiez d’un rendu optimal pour vos publications.
             </p>
           </section>
           <section class="service__price">
             <h4>50€/photo</h4>
             <span>2 AR par photo</span>
           </section>
-        </div>
-        <div class="service">
+        </article>
+        <article class="service">
           <section class="service__description">
             <h3>Album photos</h3>
             <p>
               Partagez avec vos proches et vos clients les photos des moments
-              partagés ensemble à travers un album photo personnalisé
+              partagés ensemble à travers un album photo personnalisé.
             </p>
           </section>
           <section class="service__price">
             <h4>400€ album A4</h4>
             <span>30 pages recto/verso</span>
           </section>
-        </div>
+        </article>
       </div>
     </div>
     <div class="quote">
